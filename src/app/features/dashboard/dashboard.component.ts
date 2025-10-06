@@ -6,6 +6,7 @@ import { InvestmentService } from '../../core/services/investment.service';
 import { map } from 'rxjs/operators';
 import { RouterModule } from '@angular/router';
 
+
 @Component({
   selector: 'app-dashboard',
   standalone: true,
