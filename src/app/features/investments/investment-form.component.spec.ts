@@ -5,7 +5,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { InvestmentService } from '../../core/services/investment.service';
 import { of } from 'rxjs';
 
-fdescribe('InvestmentFormComponent', () => {
+
+describe('InvestmentFormComponent', () => {
   let component: InvestmentFormComponent;
   let fixture: ComponentFixture<InvestmentFormComponent>;
   let invServiceSpy: jasmine.SpyObj<InvestmentService>;
